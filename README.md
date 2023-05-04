@@ -2,6 +2,10 @@
 
 This project is an example of how to create a wireless sensor network using ESP32 microcontrollers. The network consists of a transmitter and a receiver that communicate using the ESP-NOW protocol.
 
+The transmitter is equipped with several sensors to measure environmental parameters such as temperature, humidity, moisture, pH, and nutrient levels. It sends this data wirelessly to the receiver which collects and logs the information.
+
+A web-based dashboard is also included in this project. The dashboard allows users to view the sensor data in real-time and provides historical data trends for each environmental parameter.
+
 ## Hardware Components Required
 
 - 2 ESP32 microcontrollers
